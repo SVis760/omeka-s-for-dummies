@@ -113,4 +113,4 @@ Once Git is installed, configure it with your name and email. This information w
 You can check your configuration at any time with:
 ```bash
 git config --list
-
+```
