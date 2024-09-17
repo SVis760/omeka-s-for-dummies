@@ -50,4 +50,4 @@ EMAIL_PASSWORD=your_email_password
 EMAIL_CONNECTION_TYPE=tls
 HOST_NAME=example.com
 ```
-The variables were set up during the installation process of MySQL, see [MacOS Installation Guide for Docker, MySQL and git](macos.md), step 5-8.
+The variables were set up during the installation process of MySQL, see [Prerequisites Installation Guide for MacOS](macos.md), step 5-8.
