@@ -1,5 +1,6 @@
 
 - [Prerequisites Installation Guide for Linux](linux.md)
+- [Installation Guide for Omeka-S Docker-file for Linux](omeka-s-docker-linux-guide.md)
 - [Prerequisites Installation Guide for MacOS](macos.md)
 - [Installation Guide for Omeka-S Docker-file for MacOS](omeka-s-docker-macos-guide.md)
 - [Prerequisites Installation Guide for Windows](windows.md)
