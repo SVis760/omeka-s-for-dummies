@@ -1,1 +1,13 @@
+theme: jekyll-theme-minimal
+title: My Omeka S Tutorial
+description: A guide on installing and using Omeka S
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Installation"
+    url: /installation/
+  - title: "Usage"
+    url: /usage/
+  - title: "FAQ"
+    url: /faq/
 
