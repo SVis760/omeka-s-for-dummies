@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
-title: My Omeka S Tutorial
-description: A guide on installing and using Omeka S
+title: Omeka S Installation with Docker Tutorial
+description: A guide on installing and using Omeka S in a Docker container
 navigation:
   - title: "Home"
     url: /
