@@ -51,3 +51,27 @@ EMAIL_CONNECTION_TYPE=tls
 HOST_NAME=example.com
 ```
 The variables were set up during the installation process of MySQL, see [Prerequisites Installation Guide for MacOS](macos.md), step 5-8.
+
+To update the files, you can do this by opening the .env file in a text editor or with the terminal.
+7. following step 6 where you ended up in the `Omeka-S-Docker` folder;
+make a copy of `example.env` and name it `.env`
+```bash
+cp example.env .env
+```
+9. edit `.env` file
+```bash
+nano .env
+```
+move arrows up-down to backspace the example credentials and add your own.
+10. save changes with `ctrl-o` and `enter` then leave file `ctrl-x`
+
+now that the .env file is set up accordingly to your credentials, we can move forward with building the docker file.
+
+You should be (or navigate to) the `Omeka-S-Docker` folder.
+Then you can follow with:
+```bash
+docker compose up
+```
+You should get a build of 3/3 components `omeka-s-docker-omeka-db-1`, `omeka-s-docker-omeka-db-admin-1` and `omeka-s-docker-omeka-web-1`
+If something goes wrong during this phase then it is likely a credential issue. please stop the process and check that the prerequisites are set up properly.
+Happy coding!
