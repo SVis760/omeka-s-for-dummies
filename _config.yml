@@ -4,12 +4,12 @@ plugins:
 title: Omeka S Installation with Docker Tutorial
 description: A guide on installing and using Omeka S in a Docker container
 navigation:
-  - title: "Home"
+  - title: "Introduction"
     url: /
   - title: "Installation"
     url: /installation/
-  - title: "Usage"
-    url: /usage/
-  - title: "FAQ"
-    url: /faq/
+  - title: "Linux"
+    url: /Installation/Linux
+  - title: "MacOS"
+    url: /Installation/MacOS
 
