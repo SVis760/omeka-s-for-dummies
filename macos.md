@@ -91,7 +91,7 @@ Open Terminal.
 
 ---
 
-You have now successfully installed, configured, and tested MySQL on macOS. You can use these basic commands to manage your MySQL databases and users.
+You have now successfully installed, configured MySQL on macOS. You can use these basic commands to manage your MySQL databases and users.
 
 
 
