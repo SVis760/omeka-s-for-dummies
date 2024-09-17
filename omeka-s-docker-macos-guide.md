@@ -50,15 +50,4 @@ EMAIL_PASSWORD=your_email_password
 EMAIL_CONNECTION_TYPE=tls
 HOST_NAME=example.com
 ```
-MYSQL_ROOT_PASSWORD is the password you set up during the installation process.
-you can open a terminal to find the following:
-MYSQL_DATABASE with:
-```bash
-```
-MYSQL_USER
-```bash
-```
-MYSQL_PASSWORD
-```bash
-```
-MYSQL_HOST
+The variables were set up during the installation process of MySQL, see [MacOS Installation Guide for Docker, MySQL and git](macos.md), step 5-8.
