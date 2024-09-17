@@ -80,7 +80,8 @@ Replace newuser with the `username` and `userpassword` with a strong password. Y
    ```bash
     SHOW DATABASES;
    ```
-   
+10. You should see a list of databases, including the one you created (`my_database`).
+
 ## 1.3 Install Git
 Git is a powerful version control system that allows you to track changes in your code and collaborate with others. This tutorial will guide you through the basic steps of installing Git, configuring it, and using fundamental Git commands.
 
