@@ -49,22 +49,28 @@ Follow the prompts to remove insecure default settings.
    mysql -u root -p
    ```
     Enter the root password you set during installation.
-5. Create a new database:
+   if you need to enable root permission do the following instead:
+   ```bash
+   sudo mysql -u root -p
+   ```
+   
+6. Create a new database:
    ```bash
    CREATE DATABASE my_database;
    ```
-6. Create a new user and grant privileges:
+7. Create a new user and grant privileges:
    ```bash
-   CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+   CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'userpassword';
    GRANT ALL PRIVILEGES ON my_database.* TO 'newuser'@'localhost';
    FLUSH PRIVILEGES;
    ```
+Replace newuser with the `username` and `userpassword` with a strong password. You’ll also need to save your username and userpassword somewhere. For username it will later be prompted as; `MYSQL_USER`=newuser and the password as; `MYSQL_PASSWORD`=userpassword
 
-7. Exit the MySQL shell:
+8. Exit the MySQL shell:
    ```bash
    EXIT;
    ```
-8. Testing the MySQL Installation
+9. Testing the MySQL Installation
    ```bash
    mysql -u root -p
    ```
