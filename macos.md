@@ -37,23 +37,24 @@ Access MySQL Command Line:
     ```sql
     CREATE DATABASE my_database;
     ```
-6. Replace `my_database` with your desired database name.
+6. Replace `my_database` with your desired database name (and don't forget to save it somewhere the name because you'll need it later where it will be prompted as; `MYSQL_DATABSE`=`my_database`).
 
-7. To create a new MySQL user, run:
+7. To create a new MySQL user (but take step 8 into account when doing so!), run:
     ```sql
-    CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+    CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'userpassword';
     ```
-8. Replace `newuser` with the username and `password` with a strong password.
+8. Replace `newuser` with the username and `userpassword` with a strong password.
+You'll also need to save your username and userpassword somewhere. For username it will later be prompted as; `MYSQL_USER`=`newuser` and the password as; `MYSQL_PASSWORD`=`userpassword`
 
-9. Grant the new user full access to the database you created:
+10. Grant the new user full access to the database you created:
     ```sql
     GRANT ALL PRIVILEGES ON my_database.* TO 'newuser'@'localhost';
     ```
-10. Apply the changes:
+11. Apply the changes:
     ```sql
     FLUSH PRIVILEGES;
     ```
-11. To exit the MySQL shell, type:
+12. To exit the MySQL shell, type:
     ```sql
     EXIT;
     ```
