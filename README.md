@@ -1,6 +1,7 @@
 
 - [Prerequisites Installation Guide for Linux](linux.md)
 - [Prerequisites Installation Guide for MacOS](macos.md)
+- [Prerequisites Installation Guide for Windows](windows.md)
 
 
 
