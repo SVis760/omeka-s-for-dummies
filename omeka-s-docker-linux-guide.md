@@ -71,6 +71,12 @@ When encountering an error; check that root permission is given by trying the fo
 ```bash
 sudo docker compose up
 ```
+If you still encounter issues such as:
+```bash
+docker: 'compose' is not a docker command.
+```
+
+Then it might be because of your distro. Check the documentation at (https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 Once started, you can access the Omeka-S installation at http://localhost:8080 and PHPMyAdmin at http://localhost:8081.
 
 You should get a build of 3/3 components `omeka-s-docker-omeka-db-1`, `omeka-s-docker-omeka-db-admin-1` and `omeka-s-docker-omeka-web-1`
