@@ -9,7 +9,7 @@ navigation:
   - title: "Installation"
     url: /installation/
   - title: "Linux"
-    url: /Installation/Linux
+    url: /Installation/linux
   - title: "MacOS"
-    url: /Installation/MacOS
+    url: /Installation/macos
 
