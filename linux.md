@@ -16,3 +16,21 @@ Docker is a platform that allows you to create, deploy, and run applications in 
     ```bash
     docker --version
     ```
+
+## 1.2 Install MySQL
+Omeka S requires a MySQL database. Here's how to install MySQL on different systems:
+
+### Linux
+1. Install MySQL server:
+    ```bash
+    sudo apt-get install mysql-server
+    ```
+2. Secure the MySQL installation:
+    ```bash
+    sudo mysql_secure_installation
+    ```
+3. Start MySQL and ensure it runs on startup:
+    ```bash
+    sudo systemctl start mysql
+    sudo systemctl enable mysql
+    ```
