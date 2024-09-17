@@ -30,4 +30,35 @@ cd Omeka-S-Docker
 ```
 Now we will closely follow the instruction from the repo with some extra clarification steps and notes.
 
+Before any further step, the configuration files first need to be set up. This is because Omeka-S uses the MySQL login credentials to connect to the database. In the Omeka-S-Docker folder there is an example.env file, which is an example of how to set it up. 
 
+The first step forward is to make a copy of the example.env file to .env (this will be how the new file is called) and update the values as needed:
+```bash
+# MySQL/MariaDB configuration
+MYSQL_ROOT_PASSWORD=your_root_password
+MYSQL_DATABASE=omeka_db
+MYSQL_USER=omeka_usr
+MYSQL_PASSWORD=your_password
+MYSQL_HOST=omeka-db
+
+# Omeka-S SMTP configuration
+# For more details, see: https://docs.laminas.dev/laminas-mail/transport/smtp-options/
+EMAIL_HOST=smtp.example.com
+EMAIL_PORT=587
+EMAIL_USER=your_email_user
+EMAIL_PASSWORD=your_email_password
+EMAIL_CONNECTION_TYPE=tls
+HOST_NAME=example.com
+```
+MYSQL_ROOT_PASSWORD is the password you set up during the installation process.
+you can open a terminal to find the following:
+MYSQL_DATABASE with:
+```bash
+```
+MYSQL_USER
+```bash
+```
+MYSQL_PASSWORD
+```bash
+```
+MYSQL_HOST
