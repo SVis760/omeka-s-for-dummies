@@ -72,6 +72,9 @@ Then you can follow with:
 ```bash
 docker compose up
 ```
+
+Once started, you can access the Omeka-S installation at http://localhost:8080 and PHPMyAdmin at http://localhost:8081.
+
 You should get a build of 3/3 components `omeka-s-docker-omeka-db-1`, `omeka-s-docker-omeka-db-admin-1` and `omeka-s-docker-omeka-web-1`
 If something goes wrong during this phase then it is likely a credential issue. please stop the process and check that the prerequisites are set up properly.
 Happy coding!
