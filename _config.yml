@@ -10,4 +10,6 @@ navigation:
     url: /linux/
   - title: "MacOS"
     url: /macos/
+  - title: "Windows"
+    url: /windows/
 
