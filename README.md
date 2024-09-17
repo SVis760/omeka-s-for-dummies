@@ -1,4 +1,4 @@
-- [Home](README.md)
+
 - [Introduction](introduction.md)
 - [Installation Guide](installation.md)
 - [Usage Instructions](usage.md)
