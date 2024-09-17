@@ -6,10 +6,8 @@ description: A guide on installing and using Omeka S in a Docker container
 navigation:
   - title: "Introduction"
     url: /
-  - title: "Installation"
-    url: /installation/
   - title: "Linux"
-    url: /Installation/linux
+    url: /linux/
   - title: "MacOS"
-    url: /Installation/macos
+    url: /macos/
 
